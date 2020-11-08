@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientlayout"
+    tools:context=".FrontView.MainActivity">
+
+
+    <!--        android:shadowColor="#275271"-->
+
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="186dp"
+        android:background="@drawable/custombutton1"
+        android:padding="25dp"
+        android:saveEnabled="true"
+        android:text="Get Started"
+        android:textColor="@android:color/background_dark"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="143dp"
+        android:layout_marginLeft="108dp"
+        android:text="Don't have an account?"
+        android:textSize="20sp"
+        android:visibility="visible"
+        />
+<!--        android:paddingLeft="30dp"-->
+
+
+    <TextView
+        android:id="@+id/tRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginBottom="100dp"
+        android:text="Sign Up Here"
+        android:textColor="#A9000000"
+        android:textSize="25sp" />
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="111dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="791dp"-->
+<!--        android:layout_marginEnd="133dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:layout_marginBottom="120dp"-->
+<!--        android:paddingLeft="30dp"-->
+<!--        android:text="Create New Account"-->
+<!--        android:textSize="20sp"-->
+<!--        android:visibility="visible" />-->
+
+
+</RelativeLayout>

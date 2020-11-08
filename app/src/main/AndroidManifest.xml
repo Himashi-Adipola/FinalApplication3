@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FrontView.ui.faq.FaqFragment"></activity>
+        <activity android:name=".FrontView.ui.driverhistory.DriverhistoryFragment" />
+        <activity android:name=".FrontView.ui.findshops.FindshopsFragment" />
+        <activity android:name=".FrontView.ui.findgarages.FindgaragesFragment" />
+        <activity android:name=".FrontView.CostEstimationActivity4" />
+        <activity android:name=".FrontView.CostEstimationActivity3" />
+        <activity android:name=".FrontView.CostEstimationActivity2" />
+        <activity android:name=".FrontView.CostEstimationActivity1" />
+        <activity android:name=".FrontView.FAQActivity" />
+        <activity android:name=".FrontView.FindSparePartsActivity2" />
+        <activity android:name=".FrontView.FindSparePartsActivity" />
+        <activity android:name=".FrontView.FindGaragesActivity2" />
+        <activity android:name=".FrontView.FindGaragesActivity" />
+        <activity android:name=".FrontView.DriverHistoryActivity" />
+        <activity android:name=".FrontView.DriverHistoryVerifyActivity" />
+        <activity
+            android:name=".FrontView.AgentProfileActivity"
+            android:label="@string/title_activity_agent_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FrontView.ResetPassword" />
+        <activity android:name=".FrontView.RegisterActivity" />
+        <activity android:name=".FrontView.LoginActivity" />
+        <activity android:name=".FrontView.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
